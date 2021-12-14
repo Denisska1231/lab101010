@@ -42,8 +42,8 @@ int main(){
 		NewBalance = Total - Payment;
 		cout << setw(13) << left << NewBalance;
 		}else{
-		cout << setw(13) << left << Payment;
-		cout << setw(13) << left << NewBalance;
+	cout << setw(13) << left << Payment;
+	cout << setw(13) << left << NewBalance;
 	}
 	cout << "\n";	
 	loan = NewBalance;
